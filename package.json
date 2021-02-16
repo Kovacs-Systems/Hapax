@@ -1,0 +1,16 @@
+{
+  "name": "hapax",
+  "version": "1.0.0",
+  "description": "Run a function only once in a given context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapax",
+    "function",
+    "once"
+  ],
+  "author": "Curtis Covington",
+  "license": "ISC"
+}
