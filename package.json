@@ -1,5 +1,5 @@
 {
-  "name": "hapax",
+  "name": "hapax-fn",
   "version": "1.0.0",
   "description": "Run a function only once in a given context.",
   "main": "index.js",
