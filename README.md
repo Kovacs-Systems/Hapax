@@ -2,6 +2,8 @@
 Easily make sure long running repeated tasks do not overlap with 
 each other.
 
+`npm i hapax-fn`
+
 ```javascript
 const job = new Hapax(myLongJob);
 
