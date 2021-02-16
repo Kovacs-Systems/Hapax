@@ -1,6 +1,6 @@
 {
   "name": "hapax-fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run a function only once in a given context.",
   "homepage": "https://github.com/Kovacs-Systems/Hapax",
   "main": "index.js",
