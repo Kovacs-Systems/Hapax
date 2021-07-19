@@ -5,12 +5,17 @@ class Hapax {
     this.isRunning = false;
   }
 
-  async run() {
+  /**
+   * Will run the function and pass along any args
+   * @param  {...any} args
+   * @returns
+   */
+  async run(...args) {
     if (this.isRunning) {
       return false;
     }
     this.isRunning = true;
-    const result = await this.fn();
+    const result = await this.fn(...args);
   
     this.isRunning = false;
     return result;
